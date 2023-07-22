@@ -1,0 +1,35 @@
+.each_item_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 5px;
+}
+.person_details {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.name {
+  margin-bottom: -10px;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  border-style: none;
+}
+.button_delete {
+  border-style: none;
+  background-color: transparent;
+}
